@@ -10,3 +10,6 @@ The sensor works in a range of 3 meters approximatively. It will emit a 1 if a m
 
 ## Google Spreadsheet Script
 Developped as web app, callable through its URL, followed by `?tag=MovementDetected&value=FIR`, will update the sheet it is pointing towards y adding a new line to it.  
+
+# Reference
+Everything is based on [this tutorial](http://embedded-lab.com/blog/post-data-google-sheets-using-esp8266/).
