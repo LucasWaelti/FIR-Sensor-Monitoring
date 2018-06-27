@@ -15,9 +15,9 @@ const char* ssid = "NETGEAR33";
 const char* password = "aquaticfinch165";
 
 // The ID below comes from Google Sheets.
-// https://script.google.com/macros/s/AKfycbyUpHBT-1tyjPwOeM3iXMp2ff9Wkpb21r3QYIu7A5NprCnZT0oD/exec
+// https://script.google.com/macros/s/-Your-WebApp-ID-/exec
 // Add ?tag=MovementDetected&value=1 later in the code to URL. 
-const char *GScriptId = "AKfycbyUpHBT-1tyjPwOeM3iXMp2ff9Wkpb21r3QYIu7A5NprCnZT0oD";
+const char *GScriptId = "-Your-WebApp-ID-";
 
 // Push data on this interval
 const int dataPostDelay = 900000;     // 15 minutes = 15 * 60 * 1000
