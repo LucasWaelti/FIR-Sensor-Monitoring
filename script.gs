@@ -11,7 +11,7 @@ function save_data(tag, value){
  
     // Paste the URL of the Google Sheets starting from https thru /edit
     // For e.g.: https://docs.google.com/..../edit 
-    var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/1Ax74dBlEsAMLULB-C55gwqQVOVZS9YPWBOWStvzn_Hs/edit");
+    var ss = SpreadsheetApp.openByUrl("https://docs.google.com/spreadsheets/d/-Your-Spreadsheet-ID-/edit");
     var summarySheet = ss.getSheetByName("Summary");
     var dataLoggerSheet = ss.getSheetByName("DataLogger");
  
